@@ -1,0 +1,1 @@
+const end=new Date('2026-09-26T10:00:00').getTime();setInterval(()=>{let t=Math.max(0,end-Date.now());d.textContent=Math.floor(t/86400000);h.textContent=Math.floor(t%86400000/3600000);m.textContent=Math.floor(t%3600000/60000);s.textContent=Math.floor(t%60000/1000);},1000);
