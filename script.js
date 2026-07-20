@@ -1,0 +1,1 @@
+const t=new Date('2026-09-26T10:00:00-04:00').getTime(),e=[d,h,m,s];setInterval(()=>{let x=t-Date.now();if(x<0)x=0;let v=[Math.floor(x/864e5),Math.floor(x%864e5/36e5),Math.floor(x%36e5/6e4),Math.floor(x%6e4/1e3)];v.forEach((n,i)=>e[i].textContent=String(n).padStart(2,'0'));},1000);
